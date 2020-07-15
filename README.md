@@ -1,6 +1,7 @@
 # Test task for Cloudflare
 
 Challenge details:
+
 "The challenge is to build a HTTP-based RESTful API for managing Customers and their Certificates. Be thoughtful about the fact that the system must eventually support millions of certificates.
 
 A Customer:
@@ -32,35 +33,59 @@ Your solution must support:
 ### Endpoints
 
 ================ Create Customer ================ 
+
 Request Type: POST 
+
 Url: localhost:8080/api/customer/create
+
 Example Body:
+
 {
+
  "name":"test",
+ 
  "emailaddress":"test@gmail.com",
+ 
  "password":"test"
+ 
 }
 
 ================ Create Certificate ================ 
+
 Request Type: POST 
+
 Url: localhost:8080/api/customer/{customerID}/certificate
+
 Example Body:
+
 {
+
 	"isActive":true,
+	
 	"privateKey":"asdasdasdasd",
+	
 	"body":"asdasdeonasdalsd"
+	
 }
 
 ================ Get Customer With Active Certificates ================ 
+
 Request Type: GET
+
 Url: localhost:8080/api/customer/{customerID}
 
 ================ Update Certificate ================ 
+
 Request Type: PUT
+
 Url: localhost:8080/api/certificate/{certificateID}
+
 Example Body:
+
 {
+
 	"isActive":false
+	
 }
 
 
