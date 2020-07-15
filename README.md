@@ -32,7 +32,7 @@ Challenge details:
 
 ### Endpoints
 
-================ Create Customer ================ 
+**Create Customer
 
 Request Type: POST 
 
@@ -46,7 +46,8 @@ Example Body:
  	"password":"test"
 }
 ```
-================ Create Certificate ================ 
+
+**Create Certificate
 
 Request Type: POST 
 
@@ -61,17 +62,17 @@ Example Body:
 }
 ```
 
-================ Get Customer With Active Certificates ================ 
+**Get Customer With Active Certificates
 
 Request Type: GET
 
 URL: localhost:8080/api/customer/{customerID}
 
-================ Update Certificate ================ 
+**Update Certificate
 
 Request Type: PUT
 
-Url: localhost:8080/api/certificate/{certificateID}
+URL: localhost:8080/api/certificate/{certificateID}
 
 Example Body:
 ```
