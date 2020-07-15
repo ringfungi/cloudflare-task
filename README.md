@@ -47,6 +47,12 @@ Example Body:
 }
 ```
 
+**Delete Customer**
+
+Request Type: DELETE 
+
+URL: localhost:8080/api/customer/
+
 **Create Certificate**
 
 Request Type: POST 
