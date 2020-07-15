@@ -40,7 +40,7 @@ Url: localhost:8080/api/customer/create
 
 Example Body:
 
-{
+`{
 
  "name":"test",
  
@@ -48,7 +48,7 @@ Example Body:
  
  "password":"test"
  
-}
+}`
 
 ================ Create Certificate ================ 
 
@@ -58,7 +58,7 @@ Url: localhost:8080/api/customer/{customerID}/certificate
 
 Example Body:
 
-{
+`{
 
 	"isActive":true,
 	
@@ -66,7 +66,7 @@ Example Body:
 	
 	"body":"asdasdeonasdalsd"
 	
-}
+}`
 
 ================ Get Customer With Active Certificates ================ 
 
@@ -82,11 +82,11 @@ Url: localhost:8080/api/certificate/{certificateID}
 
 Example Body:
 
-{
+`{
 
-	"isActive":false
+	"isActive":false,
 	
-}
+}`
 
 
 ## Known issues
