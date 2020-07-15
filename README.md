@@ -98,8 +98,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 [VSCode](https://code.visualstudio.com/)
 
-https://mongoosejs.com/
+[MongooseJS](https://mongoosejs.com/)
 
-https://expressjs.com/
+[ExpressJS](https://expressjs.com/)
 
-https://www.npmjs.com/package/bcryptjs
+[BCryptjs](https://www.npmjs.com/package/bcryptjs)
