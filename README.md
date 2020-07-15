@@ -80,11 +80,11 @@ Example Body:
 	"isActive":false,
 }
 ```
-
+Calling this endpoint with an `isActive` value different than the current one will also trigger a POST request at `https://eb2f7e405ae3cee6ff0a450282d5ae49.m.pipedream.net`. You can change this endpoint to your own at the `certificateRoutes.js` file.
 
 ## Known issues
 
-Due to time constraints, the Pipedrive account in which the gists are created is hardcoded. Please email me at ringfungi@gmail.com for access to the account.
+Most requests sent with incorrect or missing parameters will cause the app to crash, as will some other edge cases. These were purposely ignored for simplicity's sake. Also, inactive certificates won't show up, you'll need to find their ID on the DB to activate them. It is what it is *shrug*
 
 ## Authors
 
