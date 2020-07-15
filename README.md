@@ -80,7 +80,7 @@ Example Body:
 	"isActive":false,
 }
 ```
-Calling this endpoint with an `isActive` value different than the current one will also trigger a POST request at `https://eb2f7e405ae3cee6ff0a450282d5ae49.m.pipedream.net`. You can change this endpoint to your own at the `certificateRoutes.js` file.
+Calling this endpoint with an `isActive` value different than the current one will also trigger a POST request at `https://eb2f7e405ae3cee6ff0a450282d5ae49.m.pipedream.net`. You can change this endpoint to your own in the `certificateRoutes.js` file.
 
 ## Known issues
 
