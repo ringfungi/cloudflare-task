@@ -51,7 +51,7 @@ Example Body:
 
 Request Type: DELETE 
 
-URL: localhost:8080/api/customer/
+URL: localhost:8080/api/customer/{customerID}
 
 **Create Certificate**
 
