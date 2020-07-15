@@ -57,8 +57,8 @@ Example Body:
 ```
 {
 	"isActive":true,
-	"privateKey":"asdasdasdasd",
-	"body":"asdasdeonasdalsd"
+	"privateKey":"foo",
+	"body":"bar"
 }
 ```
 
