@@ -94,3 +94,9 @@ Most requests sent with incorrect or missing parameters will cause the app to cr
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Tools
+
+https://code.visualstudio.com/
+https://mongoosejs.com/
+https://expressjs.com/
+https://www.npmjs.com/package/bcryptjs
