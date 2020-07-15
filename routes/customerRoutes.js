@@ -51,7 +51,7 @@ router.post('/:id/certificate', (req, res) => {
             customer.certificate.push(newCertificate);
             customer.save();
     
-            res.json({ success: true, message: 'Certficate found' });
+            res.json({ success: true, message: 'Certficate saved' });
         });
     }
 });
