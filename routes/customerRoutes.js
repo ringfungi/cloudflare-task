@@ -20,9 +20,8 @@ router.post('/create', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-    const { customerId } = req.params;
 
-    Customer.deleteCustomer(customerId, (err, customer) => {
+    Customer.deleteCustomer(req.params.id, (err, customer) => {
         if (err)
             throw err;
 
