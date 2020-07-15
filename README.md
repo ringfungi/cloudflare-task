@@ -2,26 +2,26 @@
 
 Challenge details:
 
-*The challenge is to build a HTTP-based RESTful API for managing Customers and their Certificates. Be thoughtful about the fact that the system must eventually support millions of certificates.*
+"The challenge is to build a HTTP-based RESTful API for managing Customers and their Certificates. Be thoughtful about the fact that the system must eventually support millions of certificates.
 
-*A Customer:*
-*1. Has a name*
-*2. Has an email address*
-*3. Has a password*
-*4. May have zero to many Certificates*
+A Customer:
+1. Has a name
+2. Has an email address
+3. Has a password
+4. May have zero to many Certificates
 
-*A Certificate:*
-*1. Belongs to one and only one Customer*
-*2. Can be either active or inactive*
-*3. Has a private key*
-*4. Has a certificate body*
+A Certificate:
+1. Belongs to one and only one Customer
+2. Can be either active or inactive
+3. Has a private key
+4. Has a certificate body
 
-*Your solution must support:**
-*1. Creating/Deleting Customers*
-*2. Creating Certificates*
-*3. Listing all of a Customer’s Active Certificates*
-*4. Activating/Deactivating Certificates. If a certificate is either activated or de-activated, add the ability to notify an external system (via an HTTP post) about that fact. You could use http://httpbin.org or http://requestbin.com/ to exercise this.*
-*5. Persistence (data must survive computer restarts)*
+Your solution must support:
+1. Creating/Deleting Customers
+2. Creating Certificates
+3. Listing all of a Customer’s Active Certificates
+4. Activating/Deactivating Certificates. If a certificate is either activated or de-activated, add the ability to notify an external system (via an HTTP post) about that fact. You could use http://httpbin.org or http://requestbin.com/ to exercise this.
+5. Persistence (data must survive computer restarts)"
 
 ## Testing
 
