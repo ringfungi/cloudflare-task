@@ -39,17 +39,13 @@ Request Type: POST
 Url: localhost:8080/api/customer/create
 
 Example Body:
-
-`{
-
- "name":"test",
- 
- "emailaddress":"test@gmail.com",
- 
- "password":"test"
- 
-}`
-
+```
+{
+ 	"name":"test",
+ 	"emailaddress":"test@gmail.com",
+ 	"password":"test"
+}
+```
 ================ Create Certificate ================ 
 
 Request Type: POST 
@@ -57,16 +53,13 @@ Request Type: POST
 Url: localhost:8080/api/customer/{customerID}/certificate
 
 Example Body:
-
-`{
-
+```
+{
 	"isActive":true,
-	
 	"privateKey":"asdasdasdasd",
-	
 	"body":"asdasdeonasdalsd"
-	
-}`
+}
+```
 
 ================ Get Customer With Active Certificates ================ 
 
@@ -81,12 +74,11 @@ Request Type: PUT
 Url: localhost:8080/api/certificate/{certificateID}
 
 Example Body:
-
-`{
-
+```
+{
 	"isActive":false,
-	
-}`
+}
+```
 
 
 ## Known issues
