@@ -22,19 +22,6 @@ Your solution must support:
 4. Activating/Deactivating Certificates. If a certificate is either activated or de-activated, add the ability to notify an external system (via an HTTP post) about that fact. You could use http://httpbin.org or http://requestbin.com/ to exercise this.
 5. Persistence (data must survive computer restarts)"
 
-### Prerequisites
-
-To build, run and test this project on your machine, you should use:
-
-```
-
-*JDK 8 or greater (JDK 11 was used).
-*A mature IDE of your choice (i.e., IntelliJ, Netbeans, or Eclipse).
-*An external HTTP client like curl, Postman, etc.
-*A GitHub account.
-
-```
-
 ## Testing
 
 1. Create a database in MongoDB with the name mentioned in the file config/database (default value: "Customer-API")
