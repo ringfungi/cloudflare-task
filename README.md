@@ -17,11 +17,11 @@ A Certificate:
 4. Has a certificate body
 
 Your solution must support:
-1. Creating/Deleting Customers
-2. Creating Certificates
-3. Listing all of a Customer’s Active Certificates
-4. Activating/Deactivating Certificates. If a certificate is either activated or de-activated, add the ability to notify an external system (via an HTTP post) about that fact. You could use http://httpbin.org or http://requestbin.com/ to exercise this.
-5. Persistence (data must survive computer restarts)"
+1. Creating/Deleting Customers ✔️
+2. Creating Certificates ✔️
+3. Listing all of a Customer’s Active Certificates ✔️
+4. Activating/Deactivating Certificates. If a certificate is either activated or de-activated, add the ability to notify an external system (via an HTTP post) about that fact. You could use http://httpbin.org or http://requestbin.com/ to exercise this. ✔️
+5. Persistence (data must survive computer restarts)" ✔️
 
 ## Testing
 
